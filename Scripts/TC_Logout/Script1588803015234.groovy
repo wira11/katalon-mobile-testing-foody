@@ -29,3 +29,5 @@ Mobile.tap(findTestObject('Logout/BtnLogout'), 0)
 
 Mobile.tap(findTestObject('Logout/BtnLogoutConfirmation'), 0)
 
+//cek
+
