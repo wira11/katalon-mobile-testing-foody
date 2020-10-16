@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_Login</name>
+   <name>Penjumlahan</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>4772f98a-1523-4d4a-a67e-e6d90124b8c1</testCaseGuid>
+   <testCaseGuid>24813839-1bc7-4e7e-8a12-1af1a83b8f5c</testCaseGuid>
 </TestCaseEntity>

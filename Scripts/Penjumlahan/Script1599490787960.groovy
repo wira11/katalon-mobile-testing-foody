@@ -15,39 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.tap(findTestObject('Review Item/BtnReview'), 0)
+Mobile.checkElement(findTestObject('Kalkulator/Btn_1'), 0)
 
-Mobile.tap(findTestObject('Review Item/TxtTitle'), 0)
+WebUI.verifyElementVisible(findTestObject(null))
 
-Mobile.setText(findTestObject('Review Item/TxtTitle'), 'Ice Cream', 0)
-
-Mobile.tap(findTestObject('Review Item/TxtContent'), 0)
-
-Mobile.setText(findTestObject('Review Item/TxtContent'), 'This is the best ever', 0)
-
-Mobile.tap(findTestObject('Review Item/BtnPost'), 0)
-
-Mobile.tap(findTestObject('Review Item/BtnRate'), 0)
-
-Mobile.tap(findTestObject('Review Item/BtnNoPerson'), 0)
-
-Mobile.tap(findTestObject('Review Item/Btn8'), 0)
-
-Mobile.tap(findTestObject('Review Item/BtnExpense'), 0)
-
-Mobile.tap(findTestObject('Review Item/Btn50000'), 0)
-
-Mobile.tap(findTestObject('Review Item/BtnComeback'), 0)
-
-Mobile.tap(findTestObject('Review Item/BtnSure'), 0)
-
-Mobile.tap(findTestObject('Review Item/BtnDone'), 0)
-
-Mobile.tap(findTestObject('Review Item/BtnPost'), 0)
-
-Mobile.tap(findTestObject('Review Item/BtnCLOSE'), 0)
-
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.acceptAlert()
+WebUI.verifyElementText(findTestObject(null), '')
 

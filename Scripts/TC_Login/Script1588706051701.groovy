@@ -58,3 +58,5 @@ Mobile.setText(findTestObject('Login/TxtPassword'), 'testingfacebook123', 0)
 Mobile.tap(findTestObject('Login/BtnMasuk'), 0)
 
 Mobile.tap(findTestObject('Login/BtnLANJUTKAN'), 0)
+
+//test
