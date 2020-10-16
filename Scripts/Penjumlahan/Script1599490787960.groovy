@@ -22,3 +22,4 @@ WebUI.verifyElementVisible(findTestObject(null))
 WebUI.verifyElementText(findTestObject(null), '')
 
 //Test
+//push
